@@ -1,134 +1,50 @@
-UPI Fraud Detection & Risk Intelligence Dashboard
-📌 Overview
+# UPI Fraud Detection & Risk Analysis
 
-This project is an end-to-end data analytics and fraud detection system designed to identify high-risk UPI transactions using Python, SQL, Streamlit, and Power BI. It simulates a real-world banking fraud monitoring solution by integrating ETL pipelines, advanced SQL queries, and interactive dashboards for operational and executive-level analysis.
+## 📌 Overview
 
-🏗️ Architecture
-CSV Dataset  
-   ↓  
-Python ETL (Pandas + SQLAlchemy)  
-   ↓  
-MySQL Database (Normalized Tables)  
-   ↓  
-Advanced SQL Queries  
-   ↓  
-Streamlit Dashboard (Live Risk Monitoring)  
-   ↓  
-Power BI Dashboard (Strategic Analytics & DAX)
+An end-to-end data analytics project for analyzing UPI transactions and identifying fraudulent and high-risk transactions using **Python, SQL, Streamlit, and Power BI**.
 
-⚙️ Tech Stack
+The project includes data processing, fraud risk analysis, SQL-based insights, and interactive dashboards for monitoring transaction and risk patterns.
 
-Python (Pandas, Streamlit, Plotly, SQLAlchemy)
+## 🛠️ Tech Stack
 
-MySQL
+- Python (Pandas, Streamlit, Plotly, SQLAlchemy)
+- MySQL
+- SQL
+- Power BI (DAX)
+- GitHub
 
-SQL (Advanced Analytics)
+## 🔍 Key Features
 
-Power BI (DAX, Visual Analytics)
+- Fraud and risk analysis
+- City-wise fraud analysis
+- Payment mode risk profiling
+- Fraud rate and risk KPIs
+- High-risk transaction identification
+- Transaction and fraud trend analysis
+- Interactive Streamlit dashboard
+- Power BI dashboard with DAX-based analysis
 
-GitHub
+## 📂 Project Structure
 
-📂 Project Structure
-upi-fraud-detection/
-│
+```text
+UPI-Fraud-Detection-Risk-Analysis/
 ├── data/
-│   └── upi_fraud_detection_dataset.csv
-│
 ├── sql/
-│   └── fraud_analysis_queries.sql
-│
 ├── python/
-│   ├── etl_to_mysql.py
-│   └── streamlit_dashboard.py
-│
 ├── powerbi/
-│   └── upi_fraud_dashboard.pbix
-│
-├── screenshots/
-│   ├── streamlit_dashboard.png
-│   └── powerbi_dashboard.png
-│
+├── documents/
 └── README.md
 
-🔍 Key Features
+## 🚀 Future Scope
 
-Fraud Risk Scoring Engine
+- Machine learning-based fraud prediction
+- Automated fraud alerts
+- Cloud deployment
+- Real-time transaction monitoring
 
-City-Based Fraud Heatmap (India Map)
+## 👩‍💻 Author
 
-Payment Mode Risk Profiling
+**Sayali Phanse**
 
-Real-Time KPI Monitoring
-
-Advanced DAX Measures
-
-High-Risk Transaction Flagging
-
-📊 Dashboards
-🖥️ Streamlit (Operational View)
-
-Live Filters: City, Risk Score, Amount, Fraud Status
-
-KPIs: Fraud Rate, Avg Risk, High-Risk Cases
-
-Risk Heatmap
-
-Trend & Bubble Charts
-
-📈 Power BI (Executive View)
-
-Fraud % (DAX)
-
-Risk Index
-
-City Risk Rankings
-
-Time-Based Fraud Trends
-
-Risk Segmentation
-
-🛠️ Setup Instructions
-1️⃣ Install Dependencies
-pip install pandas streamlit plotly sqlalchemy pymysql
-
-2️⃣ Run ETL Pipeline
-python etl_to_mysql.py
-
-3️⃣ Launch Dashboard
-streamlit run streamlit_dashboard.py
-
-4️⃣ Open Power BI
-
-Open upi_fraud_dashboard.pbix
-
-Refresh MySQL data source
-
-📌 Business Use Case
-
-Designed for:
-
-Banks
-
-FinTech Companies
-
-Fraud & Risk Teams
-
-Data Analysts
-
-Compliance Teams
-
-🚀 Future Scope
-
-ML Fraud Prediction Model
-
-Cloud Deployment
-
-Live Payment API Integration
-
-Automated Alerts
-
-👩‍💻 Author
-
-Hemalatha G
-Entry-Level Data Analyst
-Skilled in Python | SQL | Power BI | Data Analytics | Fraud Intelligence
+BTech IT Student | Aspiring Data Analyst
